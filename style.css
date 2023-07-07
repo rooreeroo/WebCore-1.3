@@ -117,7 +117,8 @@ body {
     }
     .head__links {
         display: flex;
-        overflow-y: scroll;
+        overflow-y: hidden;
+        overflow-x: scroll;
         padding: 10px 15px;
     }
     .head__links--link {
@@ -238,7 +239,8 @@ body {
     .navigation__menu--items--right {
         display: flex;
         height: 50px;
-        overflow-y: scroll;
+        overflow-y: hidden;
+        overflow-x: scroll;
     }
     .navigation__menu--text {
         display: block;
@@ -257,6 +259,8 @@ body {
     }
     .head__links {
         flex-wrap: wrap;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     .about {
         max-height: 100%;
