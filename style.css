@@ -269,3 +269,8 @@ body {
         max-height: 307px;
     }
 }
+@media (min-width: 1642px) {
+    .navigation__menu--items--right {
+        overflow-x: hidden;
+    }
+}
