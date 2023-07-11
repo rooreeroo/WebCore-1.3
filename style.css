@@ -233,14 +233,18 @@ body {
         width: auto;
         margin-top: 0;
     }
+    .navigation__menu-button--hidden {
+        display: none
+    }
     .navigation__menu--items--left {
         display: none;
     }
     .navigation__menu--items--right {
         display: flex;
+        justify-content: end;
         height: 50px;
         overflow-y: hidden;
-        overflow-x: scroll;
+        overflow-x: hidden;
     }
     .navigation__menu--text {
         display: block;
