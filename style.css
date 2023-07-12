@@ -246,6 +246,9 @@ body {
         overflow-y: hidden;
         overflow-x: hidden;
     }
+    .navigation__menu--items--right .navigation__menu-button:last-child {
+        margin-right: 40px;
+    }
     .navigation__menu--text {
         display: block;
         margin: auto 0;
